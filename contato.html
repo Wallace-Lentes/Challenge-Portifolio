@@ -1,0 +1,82 @@
+<!-- Página que vai conter as formas de entrar em contato comigo por meio de redes socias, email e outros meios de comunicação -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <!-- Cabeçalho contendo meu nome e links para as páginas home, hobbie e sobre mim  -->
+    <header>
+        <h1>Wallace Lentes</h1>
+        <nav>
+            <a class="botoesHeader" href="sobremim.html">Sobre Mim</a>        
+        
+            <a class="botoesHeader" href="hobbie.html">Hobbies</a>        
+        
+            <a class="botoesHeader" href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <!-- Na main vai ficar disponivel as fotos das formas para entrar em contato e elas estarão linkadas aos seus respectivos sites, tambem ficara disponivel uma caixa de mensagem para que possam deixar recado para que eu entre em contato posteriormente. -->
+    <main class="ctt">
+       
+            <h2>Redes Sociais e</h2>
+            <h2>Contato</h2>
+        
+        <section class="contatos">
+            <div id="imagem-1">  
+
+                <a href="https://github.com/Wallace-Lentes">
+                <img class="imagem" src="./img/github.png" alt="github">
+                </a> 
+
+                <a href="">
+                <img class="imagem" src="./img/gmail.png" alt="gmail">
+                </a>
+
+                <a href="https://www.linkedin.com/in/wallace-lentes-616a84209/">
+                <img class="imagem" src="./img/linkedin.png" alt="linkedin">
+                </a>
+
+                <a href="">
+                <img class="imagem" src="./img/instagram.png" alt="instagram">
+                </a>
+
+                <a href="">
+                <img class="imagem" src="./img/facebook.png" alt="facebook">
+                </a>
+
+                <a href="https://wa.me/qr/HLEPDX4FOMOBG1">
+                <img class="imagem" src="./img/whatsapp.png" alt="whatsapp">
+                </a>
+            </div>
+        </section>
+
+        <!-- Section criada para a area de texto com botoes de cancelar e enviar  -->
+        <section>
+            <p>Deixe um recado para mais informações.</p>
+            <input class="assunto" type="text" placeholder="Assunto">
+            <textarea class="mensagem" name="mensagem" id="mensagem" cols="30" rows="20" placeholder="Mensagem..."></textarea>
+            <div>
+                <input id="botaoCancelar" class="botao" type="submit" value="Cancelar">
+                <input id="botaoEnviar" class="botao" type="submit" value="Enviar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+            <p class="footer">CHALLENGE ONE FRONT END - PORTFÓLIO</p>
+       
+    </footer>
+
+</body>
+</html>
